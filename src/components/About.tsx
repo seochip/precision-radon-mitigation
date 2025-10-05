@@ -1,5 +1,5 @@
 import { Shield, Clock, Award, Users, Linkedin } from "lucide-react";
-import toolsImage from "@/assets/inspection-tools.jpg";
+import radonTestingWork from "@/assets/radon-testing-work.jpg";
 import matthewBlank from "@/assets/matthew-blank.jpg";
 
 const stats = [
@@ -74,8 +74,8 @@ const About = () => {
 
           <div className="relative">
             <img 
-              src={toolsImage} 
-              alt="Professional inspection tools" 
+              src={radonTestingWork} 
+              alt="Mathew Blank testing for radon at house foundation" 
               className="rounded-lg shadow-xl w-full"
             />
             <div className="absolute -bottom-6 -left-6 bg-accent text-accent-foreground p-6 rounded-lg shadow-lg">

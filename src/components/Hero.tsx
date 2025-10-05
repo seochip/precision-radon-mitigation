@@ -25,7 +25,7 @@ const Hero = () => {
             Locally Owned Radon Protection for Western PA Families
           </h1>
           <p className="text-xl text-muted-foreground mb-8">
-            State licensed and nationally certified radon mitigation specialists serving Armstrong, Butler, Cambria, Fayette, Somerset, and Westmoreland counties. Fast, affordable protection using American-made materials.
+            Precision Radon Mitigation specializes in residential radon mitigation systems and crawlspace vapor barriers throughout Western Pennsylvania, creating individualized solutions tailored by our state licensed and nationally certified radon specialist.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-8">

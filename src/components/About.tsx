@@ -40,7 +40,7 @@ const About = () => {
             </div>
 
             <p className="text-lg text-muted-foreground mb-6">
-              My journey into radon mitigation is deeply personal. After losing my mother to lung cancer, we later discovered elevated radon levels in her home. This devastating revelation transformed my grief into purpose—I became determined to protect other families from the silent danger of radon exposure.
+              My journey into radon mitigation is deeply personal. After losing my mother to lung cancer, we later discovered elevated radon levels in her home. That's when I knew I had to do something—I couldn't let other families go through what we did.
             </p>
             <div className="bg-secondary/50 p-6 rounded-lg border-l-4 border-accent mb-8">
               <p className="text-lg text-muted-foreground mb-4">

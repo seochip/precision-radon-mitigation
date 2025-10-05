@@ -14,8 +14,8 @@ const services = [
   },
   {
     icon: TestTube,
-    title: "Free Estimates",
-    description: "Complimentary on-site evaluation and detailed estimate for your radon mitigation needs - no obligation."
+    title: "Professional Testing",
+    description: "Accurate radon testing with state-certified equipment. $500 testing fee fully applied toward your mitigation project."
   },
   {
     icon: Home,

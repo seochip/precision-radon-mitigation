@@ -28,7 +28,7 @@ const Header = () => {
             </button>
             <Button onClick={() => scrollToSection("contact")} className="bg-accent hover:bg-accent/90 text-accent-foreground">
               <Phone className="mr-2 h-4 w-4" />
-              Get Free Assessment
+              Get Estimate
             </Button>
           </nav>
 

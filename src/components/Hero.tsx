@@ -31,11 +31,11 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row gap-4 mb-8">
             <Button 
               onClick={scrollToContact}
-              size="lg" 
+              size="lg"
               className="bg-accent hover:bg-accent/90 text-accent-foreground text-lg px-8"
             >
               <Phone className="mr-2 h-5 w-5" />
-              Get Free Assessment
+              Get Estimate
             </Button>
             <Button 
               onClick={() => document.getElementById("services")?.scrollIntoView({ behavior: "smooth" })}
@@ -48,7 +48,7 @@ const Hero = () => {
           </div>
 
           <div className="flex flex-col gap-3">
-            {["State Licensed & Nationally Certified", "Free Estimates & Quick Turnaround", "American-Made Materials & Local Fans"].map((item) => (
+            {["State Licensed & Nationally Certified", "Testing Fee Applied to Mitigation", "American-Made Materials & Local Fans"].map((item) => (
               <div key={item} className="flex items-center gap-2">
                 <CheckCircle className="h-5 w-5 text-accent flex-shrink-0" />
                 <span className="text-foreground font-medium">{item}</span>

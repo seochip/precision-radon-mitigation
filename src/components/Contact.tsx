@@ -3,7 +3,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
 
 const contactInfo = [
-  { icon: Phone, label: "Phone", value: "Call for Free Estimate" },
+  { icon: Phone, label: "Phone", value: "Call for Estimate" },
   { icon: Mail, label: "Email", value: "matt@precisionradon.com" },
   { icon: MapPin, label: "Based In", value: "Trafford, PA" },
   { icon: Clock, label: "Service Area", value: "Armstrong, Butler, Cambria, Fayette, Somerset, Westmoreland Counties" }
@@ -16,7 +16,7 @@ const Contact = () => {
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-foreground mb-4">Protect Your Family Today</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Get a free radon assessment and discover how we can eliminate radon from your home
+            Professional radon testing and mitigation services. $500 testing fee applies toward your mitigation project.
           </p>
         </div>
 
@@ -45,14 +45,14 @@ const Contact = () => {
                 </div>
 
                 <div className="bg-primary/5 p-6 rounded-lg">
-                  <h3 className="text-2xl font-bold text-foreground mb-4">Get Your Free Estimate</h3>
+                  <h3 className="text-2xl font-bold text-foreground mb-4">Get Your Estimate</h3>
                   <p className="text-muted-foreground mb-6">
-                    Protect your family with professional radon mitigation. Call today for your free estimate and quick turnaround installation using quality American-made materials.
+                    Protect your family with professional radon mitigation. Radon testing is $500, which is fully credited toward your mitigation project if you proceed with installation.
                   </p>
                   <div className="space-y-3">
                     <Button className="w-full bg-accent hover:bg-accent/90 text-accent-foreground" size="lg">
                       <Phone className="mr-2 h-5 w-5" />
-                      Call for Free Estimate
+                      Call for Estimate
                     </Button>
                     <Button className="w-full bg-primary hover:bg-primary/90 text-primary-foreground" size="lg">
                       <Mail className="mr-2 h-5 w-5" />

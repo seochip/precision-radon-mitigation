@@ -46,7 +46,7 @@ const About = () => {
               <p className="text-lg text-muted-foreground mb-4">
                 As a state licensed and nationally certified specialist, I provide fast, affordable services with quick turnaround times. We use locally manufactured radon fans to ensure quality and long-lasting performance. Every system is installed to meet EPA and ANSI/AARST standards, and includes a 6-month post-mitigation test guarantee to verify effectiveness.
               </p>
-              <div className="space-y-2">
+              <div className="space-y-2 mb-3">
                 <div className="flex items-center gap-2">
                   <Shield className="h-5 w-5 text-accent flex-shrink-0" />
                   <span className="font-semibold text-foreground">PA DEP Certification #<span className="text-accent">3696</span></span>
@@ -56,6 +56,14 @@ const About = () => {
                   <span className="font-semibold text-foreground">NRPP Certification - ID <span className="text-accent">115003-RMS</span></span>
                 </div>
               </div>
+              <a 
+                href="https://www.pa.gov/agencies/dep/programs-and-services/radiation-protection/radon-division/radon-services-directory"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-accent hover:text-accent/80 transition-colors font-medium underline"
+              >
+                Check my license here
+              </a>
             </div>
 
             <div className="grid grid-cols-2 gap-6">

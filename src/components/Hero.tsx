@@ -22,10 +22,10 @@ const Hero = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-2xl">
           <h1 className="text-5xl md:text-6xl font-bold text-foreground mb-6 leading-tight">
-            Protect Your Family From Radon - Pennsylvania's Silent Threat
+            Locally Owned Radon Protection for Western PA Families
           </h1>
           <p className="text-xl text-muted-foreground mb-8">
-            Expert radon mitigation services across Pennsylvania. Fast, reliable solutions that eliminate radon and give you peace of mind your home is safe.
+            State licensed and nationally certified radon mitigation specialists serving Armstrong, Butler, Cambria, Fayette, Somerset, and Westmoreland counties. Fast, affordable protection using American-made materials.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-8">
@@ -48,7 +48,7 @@ const Hero = () => {
           </div>
 
           <div className="flex flex-col gap-3">
-            {["EPA Certified Radon Professionals", "System Installation in 72 Hours", "Guaranteed Radon Reduction"].map((item) => (
+            {["State Licensed & Nationally Certified", "Free Estimates & Quick Turnaround", "American-Made Materials & Local Fans"].map((item) => (
               <div key={item} className="flex items-center gap-2">
                 <CheckCircle className="h-5 w-5 text-accent flex-shrink-0" />
                 <span className="text-foreground font-medium">{item}</span>

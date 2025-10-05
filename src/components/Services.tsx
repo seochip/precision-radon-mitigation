@@ -4,33 +4,33 @@ import { Home, Building2, TestTube, Shield, FileCheck, Wind } from "lucide-react
 const services = [
   {
     icon: Shield,
-    title: "Radon Mitigation Systems",
-    description: "Professional installation of active soil depressurization systems that reduce radon levels below EPA guidelines."
-  },
-  {
-    icon: TestTube,
-    title: "Radon Testing",
-    description: "Accurate short-term and long-term radon testing to determine your home's radon levels and risk."
-  },
-  {
-    icon: Home,
-    title: "Residential Solutions",
-    description: "Custom radon mitigation for homes of all sizes, from single-family to multi-unit properties."
-  },
-  {
-    icon: Building2,
-    title: "Commercial Mitigation",
-    description: "Complete radon solutions for businesses, schools, and commercial properties with compliance documentation."
+    title: "Residential Radon Mitigation",
+    description: "High-quality radon mitigation systems installed to EPA and ANSI/AARST standards using locally manufactured fans and American-made materials."
   },
   {
     icon: Wind,
-    title: "System Maintenance",
-    description: "Annual inspections and maintenance to ensure your radon system continues operating at peak efficiency."
+    title: "Crawlspace Vapor Barriers",
+    description: "Professional crawlspace encapsulation and vapor barrier installation to prevent radon entry and moisture problems."
+  },
+  {
+    icon: TestTube,
+    title: "Free Estimates",
+    description: "Complimentary on-site evaluation and detailed estimate for your radon mitigation needs - no obligation."
+  },
+  {
+    icon: Home,
+    title: "Quick Turnaround",
+    description: "Fast installation scheduling and completion to protect your family without delay. Most systems installed within days."
   },
   {
     icon: FileCheck,
-    title: "Post-Mitigation Testing",
-    description: "Verification testing after installation to confirm radon levels are reduced to safe levels."
+    title: "Licensed & Certified",
+    description: "State licensed Pennsylvania radon mitigation specialist with national certification for professional, compliant installations."
+  },
+  {
+    icon: Building2,
+    title: "Quality Guaranteed",
+    description: "Every system built to last with locally manufactured fans and American materials, meeting all EPA standards."
   }
 ];
 
@@ -39,9 +39,9 @@ const Services = () => {
     <section id="services" className="py-20 bg-secondary/30">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-foreground mb-4">Complete Radon Solutions</h2>
+          <h2 className="text-4xl font-bold text-foreground mb-4">Professional Radon Services</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            From testing to mitigation and maintenance - protecting Pennsylvania families from radon
+            Serving Armstrong, Butler, Cambria, Fayette, Somerset, and Westmoreland counties
           </p>
         </div>
 

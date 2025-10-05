@@ -3,10 +3,10 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
 
 const contactInfo = [
-  { icon: Phone, label: "Phone", value: "(717) 555-RADON" },
-  { icon: Mail, label: "Email", value: "info@safehomeradon.com" },
-  { icon: MapPin, label: "Service Area", value: "All of Pennsylvania" },
-  { icon: Clock, label: "Emergency Service", value: "7 Days a Week" }
+  { icon: Phone, label: "Phone", value: "Call for Free Estimate" },
+  { icon: Mail, label: "Email", value: "matt@precisionradon.com" },
+  { icon: MapPin, label: "Based In", value: "Trafford, PA" },
+  { icon: Clock, label: "Service Area", value: "Armstrong, Butler, Cambria, Fayette, Somerset, Westmoreland Counties" }
 ];
 
 const Contact = () => {
@@ -45,18 +45,18 @@ const Contact = () => {
                 </div>
 
                 <div className="bg-primary/5 p-6 rounded-lg">
-                  <h3 className="text-2xl font-bold text-foreground mb-4">Get Your Free Assessment</h3>
+                  <h3 className="text-2xl font-bold text-foreground mb-4">Get Your Free Estimate</h3>
                   <p className="text-muted-foreground mb-6">
-                    Every day you wait is another day of exposure. Call now for emergency service or schedule your free radon assessment. We respond within 24 hours.
+                    Protect your family with professional radon mitigation. Call today for your free estimate and quick turnaround installation using quality American-made materials.
                   </p>
                   <div className="space-y-3">
                     <Button className="w-full bg-accent hover:bg-accent/90 text-accent-foreground" size="lg">
                       <Phone className="mr-2 h-5 w-5" />
-                      Call (717) 555-RADON
+                      Call for Free Estimate
                     </Button>
                     <Button className="w-full bg-primary hover:bg-primary/90 text-primary-foreground" size="lg">
                       <Mail className="mr-2 h-5 w-5" />
-                      Request Assessment
+                      Email Matt
                     </Button>
                   </div>
                 </div>

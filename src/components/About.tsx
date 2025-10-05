@@ -42,12 +42,21 @@ const About = () => {
             <p className="text-lg text-muted-foreground mb-6">
               My journey into radon mitigation is deeply personal. After losing my mother to lung cancer, we later discovered elevated radon levels in her home. This devastating revelation transformed my grief into purpose—I became determined to protect other families from the silent danger of radon exposure.
             </p>
-            <p className="text-lg text-muted-foreground mb-6">
-              Precision Radon Mitigation is a locally owned company based in Trafford, PA, proudly serving Western Pennsylvania families. We specialize in high-quality radon mitigation systems and crawlspace vapor barriers for residential properties.
-            </p>
-            <p className="text-lg text-muted-foreground mb-8">
-              As a state licensed and nationally certified specialist, I provide fast, affordable services with quick turnaround times. We use locally manufactured radon fans to ensure quality and long-lasting performance. Every system is installed to meet EPA and ANSI/AARST standards, and includes a 6-month post-mitigation test guarantee to verify effectiveness.
-            </p>
+            <div className="bg-secondary/50 p-6 rounded-lg border-l-4 border-accent mb-8">
+              <p className="text-lg text-muted-foreground mb-4">
+                As a state licensed and nationally certified specialist, I provide fast, affordable services with quick turnaround times. We use locally manufactured radon fans to ensure quality and long-lasting performance. Every system is installed to meet EPA and ANSI/AARST standards, and includes a 6-month post-mitigation test guarantee to verify effectiveness.
+              </p>
+              <div className="space-y-2">
+                <div className="flex items-center gap-2">
+                  <Shield className="h-5 w-5 text-accent flex-shrink-0" />
+                  <span className="font-semibold text-foreground">PA DEP Certification #<span className="text-accent">3696</span></span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <Award className="h-5 w-5 text-accent flex-shrink-0" />
+                  <span className="font-semibold text-foreground">NRPP Certification - ID <span className="text-accent">115003-RMS</span></span>
+                </div>
+              </div>
+            </div>
 
             <div className="grid grid-cols-2 gap-6">
               {stats.map((stat) => {

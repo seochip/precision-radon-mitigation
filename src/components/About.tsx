@@ -62,7 +62,7 @@ const About = () => {
                 rel="noopener noreferrer"
                 className="text-accent hover:text-accent/80 transition-colors font-medium underline"
               >
-                Check my license here
+                Certified Mitigator in the state of Pennsylvania
               </a>
             </div>
 

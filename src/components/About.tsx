@@ -21,11 +21,11 @@ const About = () => {
             <div className="flex items-start gap-4 mb-6">
               <img 
                 src={matthewBlank} 
-                alt="Matthew Blank - Owner & Radon Specialist" 
+                alt="Mathew Blank - Owner & Radon Specialist" 
                 className="w-24 h-24 rounded-full object-cover shadow-lg"
               />
               <div className="flex-1">
-                <h3 className="text-xl font-semibold text-foreground mb-1">Matthew Blank</h3>
+                <h3 className="text-xl font-semibold text-foreground mb-1">Mathew Blank</h3>
                 <p className="text-muted-foreground mb-2">Owner & State Licensed Radon Specialist</p>
                 <a 
                   href="https://www.linkedin.com/in/mathew-c-blank-3077462b8/" 

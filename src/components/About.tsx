@@ -2,10 +2,10 @@ import { Shield, Clock, Award, Users } from "lucide-react";
 import toolsImage from "@/assets/inspection-tools.jpg";
 
 const stats = [
-  { icon: Shield, value: "5,000+", label: "Inspections Completed" },
-  { icon: Clock, value: "24hr", label: "Report Delivery" },
-  { icon: Award, value: "20+", label: "Years Experience" },
-  { icon: Users, value: "100%", label: "Client Satisfaction" }
+  { icon: Shield, value: "2,500+", label: "Homes Protected" },
+  { icon: Clock, value: "72hr", label: "System Installation" },
+  { icon: Award, value: "EPA", label: "Certified Professionals" },
+  { icon: Users, value: "100%", label: "Radon Reduction Guaranteed" }
 ];
 
 const About = () => {
@@ -15,13 +15,13 @@ const About = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-4xl font-bold text-foreground mb-6">
-              Why Choose TrustCheck?
+              Pennsylvania's Radon Experts
             </h2>
             <p className="text-lg text-muted-foreground mb-6">
-              With over two decades of experience, we've built our reputation on thorough, honest inspections that give you peace of mind.
+              Pennsylvania has some of the highest radon levels in the nation. We've helped over 2,500 families eliminate this silent threat and breathe easy knowing their homes are safe.
             </p>
             <p className="text-lg text-muted-foreground mb-8">
-              Our certified inspectors use the latest technology and follow strict industry standards to provide you with comprehensive reports that help you make informed decisions.
+              Our EPA-certified professionals use proven mitigation techniques and high-quality systems to guarantee radon reduction below EPA action levels. Every installation comes with post-mitigation testing and a written guarantee.
             </p>
 
             <div className="grid grid-cols-2 gap-6">
@@ -45,8 +45,8 @@ const About = () => {
               className="rounded-lg shadow-xl w-full"
             />
             <div className="absolute -bottom-6 -left-6 bg-accent text-accent-foreground p-6 rounded-lg shadow-lg">
-              <div className="text-3xl font-bold mb-1">Certified</div>
-              <div className="text-sm">Licensed Professionals</div>
+              <div className="text-3xl font-bold mb-1">EPA Certified</div>
+              <div className="text-sm">Radon Mitigation Specialists</div>
             </div>
           </div>
         </div>

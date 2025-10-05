@@ -3,10 +3,10 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
 
 const contactInfo = [
-  { icon: Phone, label: "Phone", value: "(555) 123-4567" },
-  { icon: Mail, label: "Email", value: "info@trustcheck.com" },
-  { icon: MapPin, label: "Service Area", value: "Greater Metro Area" },
-  { icon: Clock, label: "Hours", value: "Mon-Sat: 7AM-7PM" }
+  { icon: Phone, label: "Phone", value: "(717) 555-RADON" },
+  { icon: Mail, label: "Email", value: "info@safehomeradon.com" },
+  { icon: MapPin, label: "Service Area", value: "All of Pennsylvania" },
+  { icon: Clock, label: "Emergency Service", value: "7 Days a Week" }
 ];
 
 const Contact = () => {
@@ -14,9 +14,9 @@ const Contact = () => {
     <section id="contact" className="py-20 bg-secondary/30">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-foreground mb-4">Get Your Inspection Scheduled</h2>
+          <h2 className="text-4xl font-bold text-foreground mb-4">Protect Your Family Today</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Contact us today for a thorough, professional home inspection
+            Get a free radon assessment and discover how we can eliminate radon from your home
           </p>
         </div>
 
@@ -45,18 +45,18 @@ const Contact = () => {
                 </div>
 
                 <div className="bg-primary/5 p-6 rounded-lg">
-                  <h3 className="text-2xl font-bold text-foreground mb-4">Ready to Schedule?</h3>
+                  <h3 className="text-2xl font-bold text-foreground mb-4">Get Your Free Assessment</h3>
                   <p className="text-muted-foreground mb-6">
-                    Call us directly or send an email to get started. We typically respond within 1 hour during business hours.
+                    Every day you wait is another day of exposure. Call now for emergency service or schedule your free radon assessment. We respond within 24 hours.
                   </p>
                   <div className="space-y-3">
                     <Button className="w-full bg-accent hover:bg-accent/90 text-accent-foreground" size="lg">
                       <Phone className="mr-2 h-5 w-5" />
-                      Call (555) 123-4567
+                      Call (717) 555-RADON
                     </Button>
                     <Button className="w-full bg-primary hover:bg-primary/90 text-primary-foreground" size="lg">
                       <Mail className="mr-2 h-5 w-5" />
-                      Send Email
+                      Request Assessment
                     </Button>
                   </div>
                 </div>

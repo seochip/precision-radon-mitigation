@@ -22,10 +22,10 @@ const Hero = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-2xl">
           <h1 className="text-5xl md:text-6xl font-bold text-foreground mb-6 leading-tight">
-            Trusted Home Inspections You Can Count On
+            Protect Your Family From Radon - Pennsylvania's Silent Threat
           </h1>
           <p className="text-xl text-muted-foreground mb-8">
-            Comprehensive property inspections with detailed reports. Protect your investment with our certified inspection services.
+            Expert radon mitigation services across Pennsylvania. Fast, reliable solutions that eliminate radon and give you peace of mind your home is safe.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-8">
@@ -35,7 +35,7 @@ const Hero = () => {
               className="bg-accent hover:bg-accent/90 text-accent-foreground text-lg px-8"
             >
               <Phone className="mr-2 h-5 w-5" />
-              Schedule Inspection
+              Get Free Assessment
             </Button>
             <Button 
               onClick={() => document.getElementById("services")?.scrollIntoView({ behavior: "smooth" })}
@@ -43,12 +43,12 @@ const Hero = () => {
               variant="outline"
               className="text-lg px-8 border-primary text-primary hover:bg-primary hover:text-primary-foreground"
             >
-              Our Services
+              See Solutions
             </Button>
           </div>
 
           <div className="flex flex-col gap-3">
-            {["Certified & Licensed Inspectors", "Same-Day Reports Available", "20+ Years Experience"].map((item) => (
+            {["EPA Certified Radon Professionals", "System Installation in 72 Hours", "Guaranteed Radon Reduction"].map((item) => (
               <div key={item} className="flex items-center gap-2">
                 <CheckCircle className="h-5 w-5 text-accent flex-shrink-0" />
                 <span className="text-foreground font-medium">{item}</span>

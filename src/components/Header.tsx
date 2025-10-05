@@ -13,7 +13,7 @@ const Header = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
             <Home className="h-8 w-8 text-primary" />
-            <span className="text-xl font-bold text-foreground">TrustCheck Home Inspections</span>
+            <span className="text-xl font-bold text-foreground">SafeHome Radon Solutions</span>
           </div>
           
           <nav className="hidden md:flex items-center gap-6">
@@ -28,12 +28,12 @@ const Header = () => {
             </button>
             <Button onClick={() => scrollToSection("contact")} className="bg-accent hover:bg-accent/90 text-accent-foreground">
               <Phone className="mr-2 h-4 w-4" />
-              Book Inspection
+              Get Free Assessment
             </Button>
           </nav>
 
           <Button onClick={() => scrollToSection("contact")} className="md:hidden bg-accent hover:bg-accent/90 text-accent-foreground">
-            Book Now
+            Get Assessment
           </Button>
         </div>
       </div>

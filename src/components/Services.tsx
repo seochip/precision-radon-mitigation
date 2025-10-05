@@ -1,36 +1,36 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Building2, Home, FileText, Thermometer, Zap, Droplet } from "lucide-react";
+import { Home, Building2, TestTube, Shield, FileCheck, Wind } from "lucide-react";
 
 const services = [
   {
+    icon: Shield,
+    title: "Radon Mitigation Systems",
+    description: "Professional installation of active soil depressurization systems that reduce radon levels below EPA guidelines."
+  },
+  {
+    icon: TestTube,
+    title: "Radon Testing",
+    description: "Accurate short-term and long-term radon testing to determine your home's radon levels and risk."
+  },
+  {
     icon: Home,
-    title: "Pre-Purchase Inspections",
-    description: "Comprehensive evaluation before you buy, identifying potential issues and safety concerns."
+    title: "Residential Solutions",
+    description: "Custom radon mitigation for homes of all sizes, from single-family to multi-unit properties."
   },
   {
     icon: Building2,
-    title: "Commercial Inspections",
-    description: "Thorough inspections for commercial properties, ensuring compliance and structural integrity."
+    title: "Commercial Mitigation",
+    description: "Complete radon solutions for businesses, schools, and commercial properties with compliance documentation."
   },
   {
-    icon: FileText,
-    title: "Pre-Listing Inspections",
-    description: "Identify issues before listing to negotiate confidently and speed up the sale process."
+    icon: Wind,
+    title: "System Maintenance",
+    description: "Annual inspections and maintenance to ensure your radon system continues operating at peak efficiency."
   },
   {
-    icon: Thermometer,
-    title: "Thermal Imaging",
-    description: "Advanced infrared technology to detect moisture, insulation issues, and energy loss."
-  },
-  {
-    icon: Zap,
-    title: "Electrical Inspections",
-    description: "Complete electrical system evaluation for safety and code compliance."
-  },
-  {
-    icon: Droplet,
-    title: "Moisture & Mold Testing",
-    description: "Professional moisture detection and mold assessment to protect your health."
+    icon: FileCheck,
+    title: "Post-Mitigation Testing",
+    description: "Verification testing after installation to confirm radon levels are reduced to safe levels."
   }
 ];
 
@@ -39,9 +39,9 @@ const Services = () => {
     <section id="services" className="py-20 bg-secondary/30">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-foreground mb-4">Our Inspection Services</h2>
+          <h2 className="text-4xl font-bold text-foreground mb-4">Complete Radon Solutions</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Professional home inspection services tailored to your needs
+            From testing to mitigation and maintenance - protecting Pennsylvania families from radon
           </p>
         </div>
 

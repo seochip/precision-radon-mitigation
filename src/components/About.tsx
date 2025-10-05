@@ -1,5 +1,6 @@
-import { Shield, Clock, Award, Users } from "lucide-react";
+import { Shield, Clock, Award, Users, Linkedin } from "lucide-react";
 import toolsImage from "@/assets/inspection-tools.jpg";
+import matthewBlank from "@/assets/matthew-blank.jpg";
 
 const stats = [
   { icon: Shield, value: "Licensed", label: "PA State Licensed" },
@@ -17,6 +18,27 @@ const About = () => {
             <h2 className="text-4xl font-bold text-foreground mb-6">
               Locally Owned, Professionally Certified
             </h2>
+            <div className="flex items-start gap-4 mb-6">
+              <img 
+                src={matthewBlank} 
+                alt="Matthew Blank - Owner & Radon Specialist" 
+                className="w-24 h-24 rounded-full object-cover shadow-lg"
+              />
+              <div className="flex-1">
+                <h3 className="text-xl font-semibold text-foreground mb-1">Matthew Blank</h3>
+                <p className="text-muted-foreground mb-2">Owner & State Licensed Radon Specialist</p>
+                <a 
+                  href="https://www.linkedin.com/in/mathew-c-blank-3077462b8/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 text-accent hover:text-accent/80 transition-colors"
+                >
+                  <Linkedin size={18} />
+                  <span className="text-sm">Connect on LinkedIn</span>
+                </a>
+              </div>
+            </div>
+
             <p className="text-lg text-muted-foreground mb-6">
               Precision Radon Mitigation is a locally owned company based in Trafford, PA, proudly serving Western Pennsylvania families. We specialize in high-quality radon mitigation systems and crawlspace vapor barriers for residential properties.
             </p>

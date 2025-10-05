@@ -40,10 +40,13 @@ const About = () => {
             </div>
 
             <p className="text-lg text-muted-foreground mb-6">
+              My journey into radon mitigation is deeply personal. After losing my mother to lung cancer, we later discovered elevated radon levels in her home. This devastating revelation transformed my grief into purpose—I became determined to protect other families from the silent danger of radon exposure.
+            </p>
+            <p className="text-lg text-muted-foreground mb-6">
               Precision Radon Mitigation is a locally owned company based in Trafford, PA, proudly serving Western Pennsylvania families. We specialize in high-quality radon mitigation systems and crawlspace vapor barriers for residential properties.
             </p>
             <p className="text-lg text-muted-foreground mb-8">
-              Our state licensed and nationally certified specialist provides fast, affordable services with free estimates and quick turnaround times. We use locally manufactured radon fans and American-made materials to ensure quality and long-lasting performance. Every system is installed to meet EPA and ANSI/AARST standards.
+              As a state licensed and nationally certified specialist, I provide fast, affordable services with free estimates and quick turnaround times. We use locally manufactured radon fans and American-made materials to ensure quality and long-lasting performance. Every system is installed to meet EPA and ANSI/AARST standards.
             </p>
 
             <div className="grid grid-cols-2 gap-6">

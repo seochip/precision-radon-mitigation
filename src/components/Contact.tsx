@@ -3,8 +3,8 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
 
 const contactInfo = [
-  { icon: Phone, label: "Phone", value: "Call for Estimate" },
-  { icon: Mail, label: "Email", value: "matt@precisionradon.com" },
+  { icon: Phone, label: "Phone", value: "(724) 515-9414" },
+  { icon: Mail, label: "Email", value: "precisionradonllc@gmail.com" },
   { icon: MapPin, label: "Based In", value: "Trafford, PA" },
   { icon: Clock, label: "Service Area", value: "Armstrong, Butler, Cambria, Fayette, Somerset, Westmoreland Counties" }
 ];
@@ -50,13 +50,21 @@ const Contact = () => {
                     Protect your family with professional radon mitigation. Radon testing is $500, which is fully credited toward your mitigation project if you proceed with installation.
                   </p>
                   <div className="space-y-3">
-                    <Button className="w-full bg-accent hover:bg-accent/90 text-accent-foreground" size="lg">
+                    <Button 
+                      className="w-full bg-accent hover:bg-accent/90 text-accent-foreground" 
+                      size="lg"
+                      onClick={() => window.location.href = 'tel:7245159414'}
+                    >
                       <Phone className="mr-2 h-5 w-5" />
-                      Call for Estimate
+                      Call (724) 515-9414
                     </Button>
-                    <Button className="w-full bg-primary hover:bg-primary/90 text-primary-foreground" size="lg">
+                    <Button 
+                      className="w-full bg-primary hover:bg-primary/90 text-primary-foreground" 
+                      size="lg"
+                      onClick={() => window.location.href = 'mailto:precisionradonllc@gmail.com'}
+                    >
                       <Mail className="mr-2 h-5 w-5" />
-                      Email Matt
+                      Email Us
                     </Button>
                   </div>
                 </div>

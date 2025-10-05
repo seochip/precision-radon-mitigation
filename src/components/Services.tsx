@@ -5,7 +5,7 @@ const services = [
   {
     icon: Shield,
     title: "Residential Radon Mitigation",
-    description: "High-quality radon mitigation systems installed to EPA and ANSI/AARST standards using locally manufactured fans and American-made materials."
+    description: "High-quality radon mitigation systems installed to EPA and ANSI/AARST standards using locally manufactured fans with a 6-month post-mitigation test guarantee."
   },
   {
     icon: Wind,
@@ -30,7 +30,7 @@ const services = [
   {
     icon: Building2,
     title: "Quality Guaranteed",
-    description: "Every system built to last with locally manufactured fans and American materials, meeting all EPA standards."
+    description: "Every system built to last with locally manufactured fans, meeting all EPA standards, backed by our 6-month post-mitigation test guarantee."
   }
 ];
 

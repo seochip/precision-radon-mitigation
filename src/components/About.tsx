@@ -6,7 +6,7 @@ const stats = [
   { icon: Shield, value: "Licensed", label: "PA State Licensed" },
   { icon: Award, value: "Certified", label: "Nationally Certified" },
   { icon: Clock, value: "Fast", label: "Quick Turnaround" },
-  { icon: Users, value: "Quality", label: "American-Made Materials" }
+  { icon: Users, value: "Guaranteed", label: "6-Month Test Guarantee" }
 ];
 
 const About = () => {
@@ -46,7 +46,7 @@ const About = () => {
               Precision Radon Mitigation is a locally owned company based in Trafford, PA, proudly serving Western Pennsylvania families. We specialize in high-quality radon mitigation systems and crawlspace vapor barriers for residential properties.
             </p>
             <p className="text-lg text-muted-foreground mb-8">
-              As a state licensed and nationally certified specialist, I provide fast, affordable services with quick turnaround times. We use locally manufactured radon fans and American-made materials to ensure quality and long-lasting performance. Every system is installed to meet EPA and ANSI/AARST standards.
+              As a state licensed and nationally certified specialist, I provide fast, affordable services with quick turnaround times. We use locally manufactured radon fans to ensure quality and long-lasting performance. Every system is installed to meet EPA and ANSI/AARST standards, and includes a 6-month post-mitigation test guarantee to verify effectiveness.
             </p>
 
             <div className="grid grid-cols-2 gap-6">

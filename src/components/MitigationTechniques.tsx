@@ -90,10 +90,10 @@ const MitigationTechniques = () => {
         <div className="bg-accent/10 border-l-4 border-accent p-8 rounded-lg max-w-4xl mx-auto">
           <h3 className="font-bold text-foreground text-xl mb-4">Custom Solutions for Western Pennsylvania Homes</h3>
           <p className="text-muted-foreground mb-4">
-            Every home is different, and there's no one-size-fits-all solution for radon mitigation. After testing your home, we design a custom system based on your foundation type, soil conditions, and radon levels. Our installations use locally manufactured fans, ensuring long-lasting performance and reliability.
+            Every home is different, and there's no one-size-fits-all solution for radon mitigation. We design a custom system based on your foundation type, soil conditions, and radon levels. Our installations use locally manufactured fans, ensuring long-lasting performance and reliability.
           </p>
           <p className="text-muted-foreground">
-            <strong className="text-foreground">All our systems meet or exceed EPA and ANSI/AARST standards.</strong> We provide documentation and a 6-month post-mitigation test guarantee to verify the effectiveness of your system and ensure your family's safety.
+            <strong className="text-foreground">All our systems meet or exceed EPA and ANSI/AARST standards.</strong> We are 100% insured and provide documentation, a 13-month guarantee on post-mitigation system performance, and a 5-year warranty on labor and installation.
           </p>
         </div>
       </div>

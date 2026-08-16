@@ -16,7 +16,7 @@ const Contact = () => {
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-foreground mb-4">Protect Your Family Today</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Professional radon testing and mitigation services. $500 testing fee applies toward your mitigation project.
+            Professional radon mitigation services. 100% insured, with a 5-year warranty on labor and installation.
           </p>
         </div>
 
@@ -47,7 +47,7 @@ const Contact = () => {
                 <div className="bg-primary/5 p-6 rounded-lg">
                   <h3 className="text-2xl font-bold text-foreground mb-4">Get Your Estimate</h3>
                   <p className="text-muted-foreground mb-6">
-                    Protect your family with professional radon mitigation. Radon testing is $500, which is fully credited toward your mitigation project if you proceed with installation.
+                    Protect your family with professional radon mitigation. We are 100% insured and back every installation with a 5-year warranty on labor and installation, plus a 13-month guarantee on post-mitigation system performance.
                   </p>
                   <div className="space-y-3">
                     <Button 

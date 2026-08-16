@@ -6,7 +6,7 @@ const stats = [
   { icon: Shield, value: "Licensed", label: "PA State Licensed" },
   { icon: Award, value: "Certified", label: "Nationally Certified" },
   { icon: Clock, value: "Fast", label: "Quick Turnaround" },
-  { icon: Users, value: "Guaranteed", label: "6-Month Test Guarantee" }
+  { icon: Users, value: "Guaranteed", label: "13-Month Performance Guarantee" }
 ];
 
 const About = () => {
@@ -44,7 +44,7 @@ const About = () => {
             </p>
             <div className="bg-secondary/50 p-6 rounded-lg border-l-4 border-accent mb-8">
               <p className="text-lg text-muted-foreground mb-4">
-                As a state licensed and nationally certified specialist, I provide fast, affordable services with quick turnaround times. We use locally manufactured radon fans to ensure quality and long-lasting performance. Every system is installed to meet EPA and ANSI/AARST standards, and includes a 6-month post-mitigation test guarantee to verify effectiveness.
+                As a state licensed and nationally certified specialist, I provide fast, affordable services with quick turnaround times. We are 100% insured and use locally manufactured radon fans to ensure quality and long-lasting performance. Every system is installed to meet EPA and ANSI/AARST standards, and includes a 13-month guarantee on post-mitigation system performance along with a 5-year warranty on labor and installation.
               </p>
               <div className="space-y-2 mb-3">
                 <div className="flex items-center gap-2">

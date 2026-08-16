@@ -142,7 +142,7 @@ const RadonData = () => {
               document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
             }}
           >
-            Schedule Your Radon Testing
+            Schedule Your Radon Mitigation Estimate
           </a>
         </div>
       </div>

@@ -48,7 +48,7 @@ const Hero = () => {
           </div>
 
           <div className="flex flex-col gap-3">
-            {["State Licensed & Nationally Certified", "Testing Fee Applied to Mitigation", "6-Month Post-Mitigation Test Guarantee"].map((item) => (
+            {["State Licensed, Nationally Certified & 100% Insured", "5-Year Warranty on Labor & Installation", "13-Month Guarantee on Post-Mitigation System Performance"].map((item) => (
               <div key={item} className="flex items-center gap-2">
                 <CheckCircle className="h-5 w-5 text-accent flex-shrink-0" />
                 <span className="text-foreground font-medium">{item}</span>

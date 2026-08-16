@@ -1,11 +1,11 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Home, Building2, TestTube, Shield, FileCheck, Wind } from "lucide-react";
+import { Home, Building2, Hammer, Shield, FileCheck, Wind } from "lucide-react";
 
 const services = [
   {
     icon: Shield,
     title: "Residential Radon Mitigation",
-    description: "High-quality radon mitigation systems installed to EPA and ANSI/AARST standards using locally manufactured fans with a 6-month post-mitigation test guarantee."
+    description: "High-quality radon mitigation systems installed to EPA and ANSI/AARST standards using locally manufactured fans, with a 13-month guarantee on post-mitigation system performance."
   },
   {
     icon: Wind,
@@ -13,9 +13,9 @@ const services = [
     description: "Professional crawlspace encapsulation and vapor barrier installation to prevent radon entry and moisture problems."
   },
   {
-    icon: TestTube,
-    title: "Professional Testing",
-    description: "Accurate radon testing with state-certified equipment. $500 testing fee fully applied toward your mitigation project."
+    icon: Hammer,
+    title: "Foundation Sealing & Crack Repair",
+    description: "Sealing of foundation cracks and openings to limit radon entry points and support the performance of your mitigation system."
   },
   {
     icon: Home,
@@ -25,12 +25,12 @@ const services = [
   {
     icon: FileCheck,
     title: "Licensed & Certified",
-    description: "State licensed Pennsylvania radon mitigation specialist with national certification for professional, compliant installations."
+    description: "State licensed Pennsylvania radon mitigation specialist with national certification, and 100% insured for professional, compliant installations."
   },
   {
     icon: Building2,
     title: "Quality Guaranteed",
-    description: "Every system built to last with locally manufactured fans, meeting all EPA standards, backed by our 6-month post-mitigation test guarantee."
+    description: "Every system built to last with locally manufactured fans, meeting all EPA standards, backed by a 5-year warranty on labor and installation and a 13-month guarantee on post-mitigation system performance."
   }
 ];
 

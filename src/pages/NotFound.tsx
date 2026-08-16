@@ -5,7 +5,18 @@ const NotFound = () => {
   const location = useLocation();
 
   useEffect(() => {
+    const previousTitle = document.title;
+    const robotsMeta = document.querySelector<HTMLMetaElement>('meta[name="robots"]');
+    const previousRobots = robotsMeta?.content;
+
+    document.title = "Page Not Found | Precision Radon Mitigation";
+    robotsMeta?.setAttribute("content", "noindex, follow");
     console.error("404 Error: User attempted to access non-existent route:", location.pathname);
+
+    return () => {
+      document.title = previousTitle;
+      if (robotsMeta && previousRobots) robotsMeta.content = previousRobots;
+    };
   }, [location.pathname]);
 
   return (

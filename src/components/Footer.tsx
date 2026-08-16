@@ -13,11 +13,6 @@ const Footer = () => {
           <div className="text-sm opacity-90">
             © {new Date().getFullYear()} Precision Radon Mitigation. Trafford, PA. All rights reserved.
           </div>
-          
-          <div className="flex gap-6 text-sm">
-            <a href="#" className="hover:text-accent transition-colors">Privacy Policy</a>
-            <a href="#" className="hover:text-accent transition-colors">Terms of Service</a>
-          </div>
         </div>
       </div>
     </footer>

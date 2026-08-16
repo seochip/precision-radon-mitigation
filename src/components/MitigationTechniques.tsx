@@ -60,6 +60,8 @@ const MitigationTechniques = () => {
                   <img 
                     src={technique.image} 
                     alt={technique.title}
+                    loading="lazy"
+                    decoding="async"
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                   />
                 </div>

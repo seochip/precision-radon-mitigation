@@ -22,6 +22,8 @@ const About = () => {
               <img 
                 src={matthewBlank} 
                 alt="Mathew Blank - Owner & Radon Specialist" 
+                loading="lazy"
+                decoding="async"
                 className="w-24 h-24 rounded-full object-cover shadow-lg"
               />
               <div className="flex-1">
@@ -84,6 +86,8 @@ const About = () => {
             <img 
               src={radonTestingWork} 
               alt="Mathew Blank testing for radon at house foundation" 
+              loading="lazy"
+              decoding="async"
               className="rounded-lg shadow-xl w-full"
             />
             <div className="absolute -bottom-6 -left-6 bg-accent text-accent-foreground p-6 rounded-lg shadow-lg">

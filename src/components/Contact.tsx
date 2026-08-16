@@ -50,21 +50,17 @@ const Contact = () => {
                     Protect your family with professional radon mitigation. We are 100% insured and back every installation with a 5-year warranty on labor and installation, plus a 13-month guarantee on post-mitigation system performance.
                   </p>
                   <div className="space-y-3">
-                    <Button 
-                      className="w-full bg-accent hover:bg-accent/90 text-accent-foreground" 
-                      size="lg"
-                      onClick={() => window.location.href = 'tel:7245159414'}
-                    >
-                      <Phone className="mr-2 h-5 w-5" />
-                      Call (724) 515-9414
+                    <Button asChild className="w-full bg-accent hover:bg-accent/90 text-accent-foreground" size="lg">
+                      <a href="tel:+17245159414" aria-label="Call Precision Radon Mitigation at 724-515-9414">
+                        <Phone className="mr-2 h-5 w-5" />
+                        Call (724) 515-9414
+                      </a>
                     </Button>
-                    <Button 
-                      className="w-full bg-primary hover:bg-primary/90 text-primary-foreground" 
-                      size="lg"
-                      onClick={() => window.location.href = 'mailto:precisionradonllc@gmail.com'}
-                    >
-                      <Mail className="mr-2 h-5 w-5" />
-                      Email Us
+                    <Button asChild className="w-full bg-primary hover:bg-primary/90 text-primary-foreground" size="lg">
+                      <a href="mailto:precisionradonllc@gmail.com" aria-label="Email Precision Radon Mitigation">
+                        <Mail className="mr-2 h-5 w-5" />
+                        Email Us
+                      </a>
                     </Button>
                   </div>
                 </div>

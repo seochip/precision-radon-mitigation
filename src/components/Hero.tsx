@@ -13,7 +13,9 @@ const Hero = () => {
       <div className="absolute inset-0 z-0">
         <img 
           src={heroImage} 
-          alt="Professional home inspection" 
+          alt="Radon mitigation specialist inspecting a Western Pennsylvania home"
+          fetchPriority="high"
+          decoding="async"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/85 to-background/50"></div>
